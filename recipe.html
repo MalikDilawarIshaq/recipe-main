@@ -1,0 +1,2449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=divice-width, initial-scale=1.0f">
+	<title></title>
+	<style type="text/css">
+      
+       @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+	
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+		body  {
+              font-family: "Lato",sans-serif;
+			
+		}
+		body{
+			margin: 0px;
+			padding:0px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.main{
+			width: 100%;
+			
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			
+		}
+
+
+
+.header{
+	  
+	      z-index: 5000;
+    background: white;
+	
+	width: 100%;
+	height: 74px;
+	position: fixed;
+	--tw-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+	box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+}
+.header-main{
+	width: 95%;
+	height: 50px;
+	    max-width: 1600px;
+
+}
+
+
+.logo{
+	width: 99px;
+	height: 55px;
+	
+}
+.header-logo{
+	width: 91px;
+	height: 55px;
+}
+.nav{
+	width:510px;
+	height: 50px;
+	
+	font-size: 14.5px;
+    line-height: 22.4px;
+    font-weight: 600;
+}
+.nav1{
+	width: 508px;
+	height: 50px;
+	
+}
+.nav-main{
+	width:505px;
+	height: 47px;
+	
+}
+.nav div a{
+	
+    color: rgba(130,130,130,1);
+    text-decoration: none;
+}
+.home{ 
+	height: 21px;
+	border-bottom: 1px solid rgba(136,176,75,1);
+
+	   
+}
+.header-right{
+	width: 431px;
+	height:36px;
+	
+
+}
+.header-input1{
+	width: 285px;
+	height: 36px;
+	border-radius: .375rem;
+	    
+        box-sizing: border-box;
+    border: 1px solid;
+    border-color: rgba(189,189,189,1);
+}
+.header-input2{
+	width: 139px;
+	height: 35px;
+	
+	
+}
+
+.hb0{
+	width: 112px;
+	text-align: center;
+	letter-spacing: 0.48px;
+    border-radius: .375rem;
+    border: 0 solid #e5e7eb;
+    font-family: "Lato",sans-serif;
+}
+
+.hb1{
+	height: 37px;
+	width: 42px;
+	background-color: transparent;
+	    border-radius: .375rem;
+	    border: 0 solid #e5e7eb;
+}
+.hb2{
+	width: 129px;
+    height: 34px;
+        font-family: "Lato",sans-serif;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.1px;
+    border-radius: .375rem;
+    font-size: 14.1px;
+    line-height: 22.4px;
+    border: 0 solid #e5e7eb;
+    cursor: pointer;
+    background-color: rgba(136,176,75,1);
+}
+
+
+.cover-header{
+	width: 100%;
+	height: 74px;
+}
+
+   
+
+
+
+   .welcome{
+   	width: 100%;
+
+   	height: 303px;
+   	background-image: url(https://recipefund.com/browsebg.webp);
+   	background-size: cover;
+   	background-position: center 27%;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0/55%)!important;
+   }
+   .welcome h1{
+    max-width: 1600px;
+   	margin: 0px;
+   	padding: 0px;
+   	font-family: Playfair Display,serif!important;
+   	font-weight: 600!important;
+   	    font-size: 50px!important;
+    line-height: 65.2px!important;
+    color: rgba(255,255,255,1);
+    position: relative;
+    bottom: 8px;
+   }
+
+
+   .w-1{
+   	width: 100%;
+   	height: 246px;
+   	background-color: #ecf2e3!important;
+   }
+   .w-11{
+    max-width: 1600px;
+   	width: 83.6%;
+   	height: 65px;
+   	border-radius: 10px;
+   	background-color: white;
+   	position: relative;
+    top: 2px;
+
+   }
+   .search{
+   	width: 56%;
+   	height: 27px;
+   }
+   .search input{
+    width: 87.9%;
+    height: 27px;
+    border:0px;
+   }
+.search input::placeholder{
+   	    background-color: rgba(255,255,255,1);
+   	    color:#9ca3af;
+        opacity: 1;
+        padding-left: 5px;
+        font-size: 13.7px;
+
+   }
+   .search svg{
+   	position: relative;
+   	top: 1.5px;
+   }
+   .a-c{
+   	width: 43.8%;
+   	border-left:1px solid #e5e7eb;
+   }
+   .a-c select{
+   	    width: 64.9%;
+   	    position: relative;
+        right: 1px;
+        cursor: pointer;
+     	font-weight: 600;
+   	    font-family: Lato,sans-serif!important;
+   	    font-size: 16.1px!important;
+        line-height: 23.2px!important;
+        border:0px;
+   }
+   .a-c button{
+   	    width: 26%;
+   	    height: 43px;
+   	    padding-bottom: 4px;
+   	    border-radius: 10px;
+        cursor: pointer;
+     	font-weight: 600;
+   	    font-family: Lato,sans-serif!important;
+   	    font-size: 16px!important;
+        line-height: 23.2px!important;
+        border:0px;
+        background-color: rgba(136,176,75,1);
+        color: rgba(255,255,255,1);
+   }
+
+    .w-12{
+      max-width: 1600px;
+   	width: 83.6%;
+   	height: 99px;
+   	border-radius: 10px;
+   	
+   }
+   .w-12-1{
+   	width: 27.3%;
+   	height: 70px;
+   	position: relative;
+    bottom: 2px;
+   }
+   .w-12-1 label{
+   	font-size: 14.4px;
+   	line-height: 20.4px;
+   	font-weight: 600;
+   	color: rgba(79,79,79,1);
+   	font-family: Lato,sans-serif!important;
+   }
+   .w-12-1 input{
+   	height: 41.5px;
+   	border-radius: 5px;
+   	font-size: 14.5px;
+   	line-height: 20.4px;
+   	font-weight: 500;
+   	border:0px;
+   	font-family: Lato,sans-serif!important;
+   }
+   .w-12-1 input::placeholder{
+   	padding-left: 12px;
+   	font-size: 14.5px;
+   }
+   
+   .w-12-2{
+   	width: 6.5%;
+   height: 45px;
+   position: relative;
+    left: 1px;
+   }
+   .w-12-2 button{
+   	color: rgba(136,176,75,1);
+   	border:0px;
+   	font-weight: 600;
+   	padding: 0px;
+   	font-size: 17.9px!important;
+    line-height: 25px!important;
+    font-family: Lato,sans-serif!important;
+
+   }
+
+   .w-12-3{
+   	width: 27.3%;
+   	height: 66px;
+   	position: relative;
+    bottom: 4px;
+   }
+   .w-12-3 label{
+   	padding-left: 1px;
+   	font-size: 14.3px;
+   	line-height: 20.4px;
+   	font-weight: 600;
+   	color: rgba(79,79,79,1);
+   	font-family: Lato,sans-serif!important;
+   }
+   .w-12-3 select{
+   	height: 39px;
+   	border-radius: 5px;
+   	font-size: 14.3px;
+   	line-height: 20.4px;
+   	font-weight: 500;
+   	border:0px;
+   	    padding-left: 14px;
+   	font-family: Lato,sans-serif!important;
+   }
+
+
+
+   .w-2{
+   	width: 100%;
+    max-width: 1600px;
+   }
+   .w-2 .ac-p{
+   	height: 98px;
+   	margin: 0px;
+   	padding: 0px;
+   	    font-size: 14.4px;
+   	text-align: center;
+   	color: rgba(136,176,75,1);
+   	font-weight: 600;
+   }
+   .w-2 .ac-h1{
+   	height: 75px;
+   	width: 83.6%;
+   	margin: 0px;
+   	padding: 0px;
+   	font-weight: 600;
+   	position: relative;
+   	top: 1px;
+   	font-size: 27px;
+   }
+   .w-2-1{
+   	width: 100%;
+   }
+
+
+   .response2-main{
+     	width: 83.2%;
+     	height: 485px;
+     	
+     }
+     .response21{
+     	width: 288px;
+     	height: 469px;
+     	border-radius: 12px;
+     	background-color: white;
+     	box-shadow: 0px 25px 50px -12px rgb(0 0 0 / 25%);
+     	
+     }
+     .response21-img{
+     	width: 289px;
+     	height: 180px;
+     }
+     .response21 img{
+     	object-fit: cover;
+     	border-top-right-radius: 12px;
+     	border-top-left-radius: 12px;
+     }
+     .class{
+	position: relative;
+	bottom: 0px;
+}
+.p3{
+	font-size: 12.8px;
+     
+	width: 73px;
+	height: 24px;
+	color: rgba(255,255,255,1);
+	border-radius: 9999px;
+	cursor: pointer;
+	background-color: rgba(136,176,75,1);
+	text-align: center;
+    position: relative;
+    bottom: 49px;
+    left: 18px;
+}
+
+.r21c-main{
+	width: 290px;
+	height: 288px;
+	
+}
+ 
+.r21c{
+	width: 254px;
+	height: 260px;
+	background-color: white;
+} 
+
+.r21c-11{
+	width: 68.2%;
+	height: 26px;
+	
+}
+.r21c-11 p{
+	margin: 0px;
+}
+.r21c-11 .star-ratings1{
+	width: 80px;
+	
+}
+.review1 p{
+	position: relative;
+	bottom: 1px;
+	font-weight: 600;
+	letter-spacing: .1px;
+	word-spacing: 0.1px;
+	font-size: 12.5px;
+	line-height: 21px;
+	color: rgba(51,51,51,1);
+} 
+.r21c-2{
+	height: 54px;
+	
+}
+.r21c-2 h1{
+	    margin: 0px;
+    font-size: 17.8px!important;
+
+    line-height: 21px!important;
+    font-weight: 600;
+    font-family: Playfair Display,serif!important;
+}
+.r21c-3{
+	height: 96px;
+	
+}
+.r21c-3 p{
+	font-size: 12.5px;
+	word-spacing: .25px;
+	line-height: 17px;
+	color: rgba(79,79,79,1);
+}
+.r21c-4{
+	width: 100;
+	height: 35.5px;
+	
+}
+.r21c-41{
+	width: 74.5%;
+	height: 30px;
+	
+	font-size: 12.6px;
+}
+.r21c-41 p{
+	margin: 0px;
+	position: relative;
+	top: 4px;
+	    color: rgba(130,130,130,1);
+}
+.r21c-42{
+  width: 69.8px;
+  position: relative;
+  right: 1px;
+  
+}
+.r21c-42 svg{
+    position: relative;
+    top: 3px;
+}
+.r21c-43{
+	width: 75px;
+	
+}
+.r21c-43 img{
+   position: relative;
+   top: 2px;
+}
+.r21c-5{
+	height: 1px;
+	border-bottom: 2px dashed rgba(130,130,130,0.1);	
+}
+.r21c-6{
+   width: 100%;
+   position: relative;
+   top: 7px;
+  
+}
+.r21c-61{
+	width: 56%;
+	height: 38px;
+	
+}
+.r21c-61 img{
+    border-radius: 9999px;
+    position: relative;
+    top: 6px;
+}
+.r21c-61 p{
+	color: rgba(130,130,130,1);
+    font-size: 12.6px;
+    position: relative;
+    top: 1px;
+    font-weight: 500;
+}
+.r21c-61 b{
+	color: black;
+}
+.r22c-2{
+	
+	width: 90%;
+}
+.r23c-61{
+   width: 64%;
+   font-size: 12.6px;
+   font-weight: 500;
+
+	height: 38px;
+}
+.r23c-61 p{
+	position: relative;
+   top: 1px;
+}
+.r23c-61 img{
+	border-radius: 9999px;
+	position: relative;
+	top: 6px;
+}
+
+
+
+.var{
+    width: 100%;
+    height: 130px;
+   
+}
+.var1 button{
+    font-size: 14.35px;
+     font-weight: 500;
+	width: 180px;
+	height: 40px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.0px;
+	word-spacing: 0.0px;
+	cursor: pointer;
+	background-color: rgba(136,176,75,1);
+	text-align: center;
+	    border: 0 solid #e5e7eb;
+	        font-family: Lato, sans-serif !important;
+	        
+    
+}
+.var1{
+	width: 15.9%;
+	height: 50px;
+color: rgba(255,255,255,1);
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: rgba(136,176,75,1);
+	text-align: center;
+	position: relative;
+	bottom: 3px;
+}
+
+
+
+
+
+/*Footer*/
+ 
+
+ .footer{
+   	width: 100%;
+   	height: 403.5px;
+   	background-image: url(https://recipefund.com/footerbg.webp);
+   	background-repeat: no-repeat;
+   	background-size: cover;
+   	background-position: 50%;
+   }
+   .f0{
+
+    width: 92%;
+   height: 350px;
+   max-width: 1600px;
+   	
+   }
+   .f1{
+    max-width: 1600px;
+   	width: 90%;
+   	height: 340px;
+   	
+   }
+   .f2{
+   	width: 30%;
+   	height: 340px;
+   	
+   }
+   .f2-img{
+   	width: 127px;
+   	height: 109px;
+   	
+   }
+   .f2-copy{
+   	width: 100%;
+   	height: 50px;
+   
+   	font-family: Lato,sans-serif!important;
+   }
+   .f2-copy p{
+   	margin: 0px;
+   	font-size: 14.4px!important;
+    line-height: 23px!important;
+        color: rgba(224,224,224,1);
+        position: relative;
+        left: 2.4px;
+   }
+   .f2-link{
+   	width: 62.5%;
+   	height: 62px;
+   		position: relative;
+   		left: 3px;
+   }
+   .f2-link1{
+   	width: 28px;
+   	height: 29px;
+   	background-color: rgba(85,83,81,1);
+   	border-radius: 9999px;
+   }
+   .f2-link1 svg{
+   	position: relative;
+   	top: 1px;
+   	width: 14px;
+   	height: 15px;
+   	
+   }
+   .f2-likn1 a{
+   	width: 50px;
+   	height: 50px;
+   }
+   .f3{
+   	width: 18.2%;
+   	height: 340px;
+   
+   }
+   .f3-1{
+   	width: 100%;
+   	height: 66px;
+   
+   }
+   .f3-1 h1{
+   	margin: 0px;
+   	padding: 0px;
+   	        font-size:17.8px;
+    line-height: 23px!important;
+        font-family: Playfair Display,serif!important;
+        font-weight: 600;
+        color: rgba(255,255,255,1);
+   }
+   .f3-2{
+   	width: 100%;
+   	height: 215px;
+   	
+   }
+   .f3-2 p{
+   	margin: 0px;
+   	      font-size: 14.4px;
+   	      color: rgba(224,224,224,1);
+   	      line-height: 20px;
+   }
+   .f3-2 a{
+   	margin: 0px;
+   	      font-size: 14.4px;
+   	      color: rgba(224,224,224,1);
+   	      line-height: 20px;
+   }
+   .same{
+	position: relative;
+	bottom: 1px;
+}
+   .f4{
+   	width: 44%;
+   	height: 340;
+   	
+   }
+   .f4-1{
+   	width: 15%;
+   	height: 66px;
+   	
+   }
+   .f4-1 h1{
+   	margin: 0px;
+   	padding: 0px;
+   	        font-size:17.9px;
+    line-height: 23px!important;
+        font-family: Playfair Display,serif!important;
+        font-weight: 700;
+        color: rgba(255,255,255,1);
+   }
+   .f4-2{
+   	width: 100%;
+   	height: 183px;
+   	
+   }
+   .f4-21{
+   	width: 30%;
+   	height: 165px;
+   	position: relative;
+   	left: 3.4px;
+   	
+   }
+   .f4-21 p{
+   	margin: 0px;
+   	font-size: 14.4px;
+   	      color: rgba(224,224,224,1);
+   	      line-height: 20px;
+   }
+    .f4-22{
+   	width: 33%;
+   	height: 165px;
+   	position: relative;
+   	left: 8.5px;
+   	
+   	
+   }
+   .f4-22 p{
+   	margin: 0px;
+   	font-size: 14.4px;
+   	      color: rgba(224,224,224,1);
+   	      line-height: 20px;
+   }
+    .f4-23{
+   	width: 31.3%;
+   	height: 165px;
+   
+   	
+   }
+   .f4-23 p{
+   	margin: 0px;
+   	font-size: 14.4px;
+   	      color: rgba(224,224,224,1);
+   	      line-height: 20px;
+   }
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+	.disply-flex{
+			display: flex;
+		}
+		.flex-column{
+			flex-direction: column;
+		}
+		.flex-row{
+			flex-direction: row;
+		}
+		.content-center{
+         justify-content: center;
+		} 
+		.item-center-vertically{
+			align-items: center;
+		}
+		.item-start-vertically{
+			align-items: flex-start;
+		}
+		.item-end-vertically{
+			align-items: flex-end;
+		}
+         .multi-item-center-vertically{
+         	align-content: center;
+         }
+         .multi-item-end-vertically{
+         	align-content: flex-end;
+         }
+		
+		.content-left{
+			justify-content: flex-start;
+		}
+		.content-right{
+			justify-content: flex-end;
+		}
+		
+        .space-around{
+        	justify-content: space-around;
+        }
+        .space-evenly-vertically{
+        	align-content: space-around;
+        }
+        .space-evenly{
+        	justify-content: space-evenly;
+        } 
+        .space-between{
+         	justify-content: space-between;
+        }
+
+
+
+
+
+
+  @media (min-width: 0px) and (max-width: 640px){
+   
+   .nav-main{
+  display: none;
+ }
+ .nav{
+  width: 20px;
+ }
+ .header-main{
+  justify-content: space-between;
+  width: 90%;
+ }
+ .header-right{
+  width: 150px;
+ }
+ .header-input1{
+  display: none;
+ }
+ .welcome{
+  height: 250px;
+ }
+ .response2-main {
+    width: 90.2%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.response21{
+  margin-top: 10px;
+}
+
+.r21c-2 h1 {
+    margin: 0px;
+    font-size: 15.8px!important;
+    line-height: 19px!important;
+    font-weight: 500;
+    }
+    .r21c-3 p {
+    font-size: 10.5px; 
+}
+
+.r21c-61 p {
+    font-size: 10.6px;
+    }
+
+    .r23c-61 p {
+    font-size: 10.6px;
+    }
+
+    .w-11 {
+      height: 50px;
+    width: 98%;
+  }
+  .a-c select {
+    
+    font-weight: 400;
+    font-family: Lato,sans-serif!important;
+    font-size: 11.1px!important;
+    line-height: 20.2px!important;
+    
+}
+.a-c select {
+    width: 60%;
+    }
+    .a-c button {
+    width: 33%;
+    height: 30px;
+    font-weight: 500;
+    font-size: 12px!important;
+    line-height: 13.2px!important;
+  }
+  .w-12{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+  .w-12-1 label {
+    font-size: 10.4px;
+    line-height: 20.4px;
+  }
+  .w-12-3 label {
+    font-size: 10.4px;
+  }
+
+ .w-12-2{
+  width: 9.5%;
+ }
+ .w-12-2 button{
+  font-size: 13px !important;
+ }
+ .w-12-1 input {
+    height: 35.5px;
+  }
+  .w-12-3 select {
+    height: 35.5px;
+  }
+  .w-2 .ac-h1 {
+    justify-content: center;
+  }
+  .var1 {
+    width: 34%;
+    height: 44px;
+  }
+  .footer{
+    height: 800px;
+  }
+  .f0{
+    height: 700px
+  }
+ .f1{
+  width: 98%;
+  height: 700px;
+  flex-direction: column-reverse;
+  align-items: center;
+ }
+ .f2{
+  width: 75%;
+  align-items: center;
+ }
+ .f3{
+  width: 75%;
+  align-items: center;
+ }
+ .f4{
+  width: 90%;
+ }
+ .f4-2{
+  flex-wrap: wrap;
+ }
+ .f2-copy {
+    width: 74%;
+  }
+ .f2-copy p {
+    font-size: 12.4px!important;
+  }
+ .f3-1 h1 {
+    font-size: 16.8px;
+    font-weight: 500;
+  }
+  .f3-1{
+    width: 50%;
+  }
+  .f3-2{
+    width: 50%;
+  }
+  .f3-2 p{
+    font-size: 12.4px;
+  }
+  .f4-1 h1 {
+    font-size: 16.8px;
+    font-weight: 500;
+  }
+  .f4-2 p{
+    font-size: 12.4px;
+  }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 641px) and (max-width: 767px){
+   
+   .nav-main{
+  display: none;
+ }
+ .nav{
+  width: 20px;
+ }
+ .header-main{
+  justify-content: space-between;
+  width: 90%;
+ }
+ .header-right{
+  width: 150px;
+ }
+ .header-input1{
+  display: none;
+ }
+ .welcome{
+  height: 250px;
+ }
+ .response2-main {
+    width: 90.2%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.response21{
+  margin-top: 5px;
+}
+
+.r21c-2 h1 {
+    margin: 0px;
+    font-size: 15.8px!important;
+    line-height: 19px!important;
+    font-weight: 500;
+    }
+    .r21c-3 p {
+    font-size: 10.5px; 
+}
+
+.r21c-61 p {
+    font-size: 10.6px;
+    }
+
+    .r23c-61 p {
+    font-size: 10.6px;
+    }
+
+    .w-11 {
+      height: 50px;
+    width: 90%;
+  }
+  .a-c select {
+    
+    font-weight: 500;
+    font-family: Lato,sans-serif!important;
+    font-size: 15.1px!important;
+    line-height: 20.2px!important;
+    
+}
+.a-c select {
+    width: 60%;
+    }
+    .a-c button {
+    width: 32%;
+    height: 35px;
+    font-weight: 500;
+    font-size: 15px!important;
+    line-height: 20.2px!important;
+  }
+  .w-12-1 label {
+    font-size: 13.4px;
+    line-height: 20.4px;
+  }
+
+ .w-12-2{
+  width: 9.5%;
+ }
+ .w-12-2 button{
+  font-size: 13px !important;
+ }
+ .w-12-1 input {
+    height: 35.5px;
+  }
+  .w-12-3 select {
+    height: 35.5px;
+  }
+  .w-2 .ac-h1 {
+    justify-content: center;
+  }
+  .footer{
+    height: 800px;
+  }
+  .f0{
+    height: 700px
+  }
+ .f1{
+  width: 98%;
+  height: 700px;
+  flex-direction: column-reverse;
+  align-items: center;
+ }
+ .f2{
+  width: 40%;
+  align-items: center;
+ }
+ .f3{
+  width: 40%;
+  align-items: center;
+ }
+ .f4{
+  width: 70%;
+ }
+ .f4-2{
+  flex-wrap: wrap;
+ }
+ .f2-copy {
+    width: 74%;
+  }
+ .f2-copy p {
+    font-size: 12.4px!important;
+  }
+ .f3-1 h1 {
+    font-size: 16.8px;
+    font-weight: 500;
+  }
+  .f3-1{
+    width: 50%;
+  }
+  .f3-2{
+    width: 50%;
+  }
+  .f3-2 p{
+    font-size: 12.4px;
+  }
+  .f4-1 h1 {
+    font-size: 16.8px;
+    font-weight: 500;
+  }
+  .f4-2 p{
+    font-size: 12.4px;
+  }
+
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+ 
+  .nav-main{
+  display: none;
+ }
+ .nav{
+  width: 20px;
+ }
+ .header-main{
+  justify-content: space-between;
+  width: 90%;
+ }
+ .header-right{
+  width: 150px;
+ }
+ .header-input1{
+  display: none;
+ }
+ .welcome{
+  height: 250px;
+ }
+ .response2-main {
+    width: 90.2%;
+}
+.response21{
+  width: 220px;
+}
+.response21-img{
+  width: 220px;
+}
+.response21-img img{
+  width: 220px;
+}
+.r21c-main {
+    width: 220px;
+}
+.r21c {
+    width: 210px;
+    
+    }
+.r21c-2 h1 {
+    margin: 0px;
+    font-size: 15.8px!important;
+    line-height: 19px!important;
+    font-weight: 500;
+    }
+    .r21c-3 p {
+    font-size: 10.5px; 
+}
+.r21c-41 {
+    width: 80.5%;
+    height: 30px;
+    font-size: 10.6px;
+}
+.r21c-61 {
+    width: 80%;
+}
+.r21c-61 p {
+    font-size: 10.6px;
+    }
+.r23c-61 {
+    width: 80%;
+    }
+    .r23c-61 p {
+    font-size: 10.6px;
+    }
+
+ .w-12-2{
+  width: 9.3%;
+ }
+ .w-12-2 button{
+  font-size: 15.8px !important;
+ }
+ .f1{
+  width: 98%;
+ }
+ .f2-copy p {
+    font-size: 12.4px!important;
+  }
+ .f3-1 h1 {
+    font-size: 16.8px;
+    font-weight: 500;
+  }
+  .f3-2 p{
+    font-size: 12.4px;
+  }
+  .f4-1 h1 {
+    font-size: 16.8px;
+    font-weight: 500;
+  }
+  .f4-2 p{
+    font-size: 12.4px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1121px) {
+ .nav-main{
+  display: none;
+ }
+ .nav{
+  width: 450px;
+ }
+ .header-right{
+  width: 450px;
+ }
+ .response2-main {
+    width: 90.2%;
+}
+ .w-12-2{
+  width: 8.5%;
+ }
+ .f1{
+  width: 95%;
+ }
+
+}
+
+
+
+	</style>
+</head>
+<body>
+
+  <div class="main ">
+	
+
+
+
+
+<div class="header disply-flex content-center  item-center-vertically">
+	<div class="header-main disply-flex space-between item-center-vertically">
+		<div class="logo disply-flex item-center-vertically content-right">
+			<div class="header-logo disply-flex item-center-vertically content-center">
+			<img src="https://recipefund.com/RF_color_v1.webp" width="95%" height="38" class=" object-cover" alt="Recipe Fund Logo">
+			</div>
+		</div>
+		<div class="nav disply-flex">
+		 <div class="nav1 disply-flex content-center">
+		  <div class="nav-main disply-flex space-between item-center-vertically">
+			<div >
+			  <a href="Index.html">Home</a>	
+			</div>
+			<div class="home">
+				<a  href="recope.html">Browse Recipes</a>
+			</div>
+			<div>
+				<a href="login.html">Submit Recipe</a>
+			</div>
+			<div>
+				<a href="how-it-works.html">How it Works</a>
+			</div>
+			<div>
+				<a href="blog.html">Blog</a>
+			</div>
+		  </div>
+		 </div>
+		</div>
+		<div class="header-right disply-flex space-between item-end-vertically">
+			<div class="header-input1 disply-flex space-between">
+				<input placeholder="Search Recipes" class="hb0" value>
+				<button class="hb1"><img src="https://recipefund.com/search.webp" alt="Search Icon" width="19" height="20"></button>
+			</div>
+			<div class="header-input2 disply-flex">
+				<button class="hb2"   onclick="window.location.href = 'login.html'">Signup / Login</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="cover-header"></div>
+
+
+
+ <div class="welcome disply-flex content-center item-center-vertically">
+ 	<h1>
+ 		Browse Recipes
+ 	</h1>
+ </div>
+
+
+ <div class="w-1 disply-flex flex-column content-center item-center-vertically">
+	   <div class="w-11 disply-flex item-center-vertically space-between">
+	   	<div class="search disply-flex space-evenly">
+	   		<svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.1667 23.5C14.6812 23.4995 17.1233 22.6577 19.1041 21.1086L25.3318 27.3363L27.3349 25.3331L21.1073 19.1055C22.6571 17.1245 23.4994 14.6818 23.5 12.1666C23.5 5.91773 18.4156 0.833313 12.1667 0.833313C5.91776 0.833313 0.833344 5.91773 0.833344 12.1666C0.833344 18.4156 5.91776 23.5 12.1667 23.5ZM12.1667 3.66665C16.8544 3.66665 20.6667 7.4789 20.6667 12.1666C20.6667 16.8544 16.8544 20.6666 12.1667 20.6666C7.47893 20.6666 3.66668 16.8544 3.66668 12.1666C3.66668 7.4789 7.47893 3.66665 12.1667 3.66665Z" fill="#88B04B"></path></svg>
+
+
+	   		<input class=" border-0 px-6 bg-white focus:outline-none " name="keyword" type="text" autocomplete="off" placeholder="Find a recipe.." value="">
+	   	</div>
+	   	<div class="a-c disply-flex space-evenly">
+	   		<select  name="" id="">
+             <option value="">All Categories</option>
+             <option value="">ABC</option>
+             <option value="">XYZ</option>
+             <option value="">xyz</option>
+            </select>
+
+            <button class="t">Search</button>
+	   	</div>
+	   </div>
+	   <div class="w-12 disply-flex item-end-vertically space-between">
+	   	<div class="w-12-1 disply-flex flex-column space-between">
+	   	  <label>Include Ingredients</label>
+
+	   	  <input autocomplete="off" placeholder="Ingredients" value="">
+	   	</div>
+
+	   	<div class="w-12-1 disply-flex flex-column space-between">
+	   	  <label>Exclude Ingredients</label>
+
+	   	  <input autocomplete="off" placeholder="Ingredients" value="">
+	   	</div>
+
+	   	<div class="w-12-3 disply-flex flex-column space-between">
+	   	  <label>Sort by</label>
+
+	   	  <select  name="" id="">
+             <option value="">Latest</option>
+             <option value="">ABC</option>
+             <option value="">XYZ</option>
+             <option value="">xyz</option>
+            </select>
+	   	</div>
+
+	   	<div class="w-12-2 disply-flex item-center-vertically">
+	   	<button>Clear All</button>
+	   		
+	   	</div>
+
+	   </div>
+</div>
+
+   
+
+   <div class="w-2 disply-flex flex-column item-center-vertically">
+   	   <p class="ac-p disply-flex item-end-vertically">All Categories</p>
+   	   <h1 class="ac-h1 disply-flex content-left">Discover Recipes</h1>
+        <div class="w-2-1 disply-flex flex-column space-evenly item-center-vertically">
+        	 <div class="response2-main disply-flex space-between">
+    		
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/Js6uwOeTX2dxf7NOmPMzHmvYzR32%2F5b90eb42-423d-4eb6-99d8-ea17e9f1c3a8%2Frecipe%2F5b90eb42-423d-4eb6-99d8-ea17e9f1c3a8?alt=media&token=44b728a5-e76f-490e-963a-1c7ca4be141b" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Chicken</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Trinidad Pelau Chicken and Pigeon Peas</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">Trini pelau is an iconic recipe from the island of Trinidad that is often made on weekends and when family and friends get together for a lime (Caribbean slang ...</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">95 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">6 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r21c-61 disply-flex space-between ">
+                         <img src="https://lh3.googleusercontent.com/a-/AOh14Gj-umm7FkcdtxHTHyS9Gr_UdXlNg_u7M1n7my6U=s96-c" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Ernest Turkson</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		</div>
+
+
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/K6mVtNr0GAZnz9oUPnSL0QMOH722%2F1b7d72ad-502b-474f-a357-12528774d2c6%2Frecipe%2F1b7d72ad-502b-474f-a357-12528774d2c6?alt=media&token=3e1f2b91-4405-4a01-9218-7d0b9c4bcf4a" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Chicken</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 r22c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Instant Pot Crack Chicken Chili</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">Instant Pot Crack Chicken Chili is a gluten free main course. One portion of this dish contains about 32g of protein, 30g of fat, and a total of 550 calories. T...</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">45 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">6 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r21c-61 disply-flex space-between ">
+                         <img src="https://lh3.googleusercontent.com/a-/AOh14Gj-umm7FkcdtxHTHyS9Gr_UdXlNg_u7M1n7my6U=s96-c" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Ernest Turkson</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		</div>
+
+
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/K6mVtNr0GAZnz9oUPnSL0QMOH722%2Fbca6f269-6da0-466b-9b19-190060ca8382%2Frecipe%2Fbca6f269-6da0-466b-9b19-190060ca8382?alt=media&token=dd736955-b80e-4f82-a3ee-4ccb343a1aab" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Chicken</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Delicious Chicken Korma Recipe</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">Chicken Korma very delicious food in India. It is very easy to cook. After cooking for 30 minutes, it becomes suitable for food for 3-4 people. Let's learn how ...</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">50 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">4 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r23c-61 disply-flex space-between ">
+                         <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/profile%2FSuExWBNWxeQqQ9weiEKXeRRnOQk2?alt=media&token=6f90c762-1d49-4e4a-b29e-762f8401277c" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Abul Hasnat Himel</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		   </div>
+    	    </div>
+
+
+
+
+
+
+    	    <div class="response2-main disply-flex space-between">
+    		
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/K6mVtNr0GAZnz9oUPnSL0QMOH722%2Fd09dc2a0-762e-45ea-af6a-049e0181d557%2Frecipe%2Fd09dc2a0-762e-45ea-af6a-049e0181d557?alt=media&token=b33fed07-037b-4706-888e-ff736d028f7e" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Chicken</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Trinidad Pelau Chicken and Pigeon Peas</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">This dish is full of intriguing flavors for your baby to discover, and it also serves as a delicious family dinner. It contains a wide range of veggies, as well...</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">35 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">4 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r21c-61 disply-flex space-between ">
+                         <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/profile%2FK6mVtNr0GAZnz9oUPnSL0QMOH722?alt=media&token=0b7e2f92-c57b-4f75-95a0-57af6b26e1d4" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Alexis Vill</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		</div>
+
+
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/K6mVtNr0GAZnz9oUPnSL0QMOH722%2F11eb2f9d-ecad-44f1-bbff-134ac7b3f030%2Frecipe%2F11eb2f9d-ecad-44f1-bbff-134ac7b3f030?alt=media&token=27b70d9b-5343-483f-992b-2d0b3efd0369" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Baby Food</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 r22c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Tuna Mayo Jackets</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">Introduce your child to a lunchtime favorite: tuna and mayonnaise-filled jacket potatoes. On the side, there are carrot and cucumber spears.</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">20 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">5 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r21c-61 disply-flex space-between ">
+                         <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/profile%2FK6mVtNr0GAZnz9oUPnSL0QMOH722?alt=media&token=0b7e2f92-c57b-4f75-95a0-57af6b26e1d4" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Alexis Vill</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		</div>
+
+
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/K6mVtNr0GAZnz9oUPnSL0QMOH722%2F924173fe-d9fa-4c55-8c7c-b43f4524f53e%2Frecipe%2F924173fe-d9fa-4c55-8c7c-b43f4524f53e?alt=media&token=7e8b9491-b43a-4a49-8fd6-c7037ad31d89" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Chicken</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Delicious Chicken Korma Recipe</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">This is an excellent recipe for introducing your infant to fish. It's also suitable for the senior members of the family; simply serve it as is rather than comb...</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">45 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">4 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r23c-61 disply-flex space-between ">
+                         <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/profile%2FK6mVtNr0GAZnz9oUPnSL0QMOH722?alt=media&token=0b7e2f92-c57b-4f75-95a0-57af6b26e1d4" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Alexis Vill</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		   </div>
+    	    </div>
+
+
+    	    <div class="response2-main disply-flex space-between">
+    		
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/K6mVtNr0GAZnz9oUPnSL0QMOH722%2F3b85cf98-73ca-47ee-ae4b-f80b035ec811%2Frecipe%2F3b85cf98-73ca-47ee-ae4b-f80b035ec811?alt=media&token=95acaa65-fc67-42dd-919b-fe3c23b2d2b4" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Baby Food</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Mini Piccolo Cherry Tomato Cheese Muffins</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">Look no further than my Mini Piccolo Cherry Tomato & Cheese Muffins if you're seeking for creative ways to "super-fry" your baby's food. When cooked, these can ...</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">23 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">10 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r21c-61 disply-flex space-between ">
+                         <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/profile%2FK6mVtNr0GAZnz9oUPnSL0QMOH722?alt=media&token=0b7e2f92-c57b-4f75-95a0-57af6b26e1d4" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Alexis Vill</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		</div>
+
+
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/K6mVtNr0GAZnz9oUPnSL0QMOH722%2Fed4a0e13-0be7-4115-9d7c-168c4bb36ef4%2Frecipe%2Fed4a0e13-0be7-4115-9d7c-168c4bb36ef4?alt=media&token=c426034c-3e8c-448b-a37a-9c3e89787854" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Baby Food</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 r22c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Apple Bacon Cheddar Frittata</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">Instant It's a lovely and elegant dish that's easy to cook, as you can see from the image. We ate it for lunch one day, but it's also also delicious for breakfast or di...</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">50 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">4 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r21c-61 disply-flex space-between ">
+                         <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/profile%2FK6mVtNr0GAZnz9oUPnSL0QMOH722?alt=media&token=0b7e2f92-c57b-4f75-95a0-57af6b26e1d4" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Alexis Vill</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		</div>
+
+
+    		<div class="response21 disply-flex flex-column">
+    			<div class="response21-img">
+                 <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/K6mVtNr0GAZnz9oUPnSL0QMOH722%2Fda23077c-6db7-4933-849f-95ae7c5d13b8%2Frecipe%2Fda23077c-6db7-4933-849f-95ae7c5d13b8?alt=media&token=dfcda868-6432-45fc-aec5-260e60fe73d3" alt="Trinidad Pelau Chicken and Pigeon Peas" width="288" height="180" class="rounded-xl rounded-b-none object-cover w-full" >
+                 <div class="p3 disply-flex content-center item-center-vertically"><p class="class">Baby Food</p></div>	
+    			</div>
+              
+                
+                 <div class="r21c-main disply-flex content-center item-center-vertically"> 
+                  <div class="r21c disply-flex flex-column">
+
+                	<div class="r21c-1 disply-flex">
+                		<div class="r21c-11 disply-flex space-between item-end-vertically">
+					<div>
+						<div class=" ">
+						<div class="star-ratings1 disply-flex space-between" title="4 Stars" style="position: relative; box-sizing: border-box; ">
+						<svg class="star-grad" style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+						<defs>
+						<linearGradient id="starGrad866636809955412" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-first" style="stop-color: rgb(136, 176, 75); stop-opacity: 1;"></stop>
+						<stop offset="0%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						<stop offset="100%" class="stop-color-final" style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+						</linearGradient>
+						</defs>
+						</svg>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 16px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;"></path>
+						</svg>
+						</div>
+						<div class="star-container" style="position: relative; display: inline-block; vertical-align: middle; padding-left: 0px;">
+						<svg viewBox="0 0 51 48" class="widget-svg" style="width: 15px; height: 14px; transition: transform 0.2s ease-in-out 0s;">
+						<path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" style="fill: rgb(136, 176, 75); transition: fill 0.2s ease-in-out 0s;">	
+						</path>
+						</svg>
+						</div>
+						</div>
+						</div>
+					</div>
+					<div class="review1">
+						<p class=" ">0 Reviews</p>
+					</div>
+				</div>
+                	</div>
+
+                	<div class="r21c-2 disply-flex item-end-vertically">
+                		
+                       <h1 class="">Chicken Cashew Satay on Lolly sticks</h1>
+
+                	</div>
+
+                	<div class="r21c-3 disply-flex item-end-vertically">
+                		<p class="mt-4 small-text text-gray-2">This chicken satay is presented on lollipop sticks, making it ideal for toddlers and ensuring that dinner time is enjoyable.</p>
+                	</div>
+
+                	<div class="r21c-4 disply-flex">
+                		
+                        <div class="r21c-41 disply-flex space-between">
+                        <div class="r21c-42 disply-flex space-between">
+                        <svg width="19" height="18" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.32143 0.775513C4.18172 0.775513 0 4.95701 0 10.0969C0 15.2369 4.18172 19.4184 9.32143 19.4184C14.4614 19.4184 18.6429 15.2369 18.6429 10.0969C18.6429 4.95701 14.4611 0.775513 9.32143 0.775513ZM9.32143 18.0576C4.93198 18.0576 1.36078 14.4864 1.36078 10.0969C1.36078 5.70749 4.93198 2.1363 9.32143 2.1363C13.7109 2.1363 17.2821 5.70746 17.2821 10.0967C17.2821 14.4864 13.7109 18.0576 9.32143 18.0576Z" fill="#88B04B"></path><path d="M12.4967 10.0969H9.54828V6.0145C9.54828 5.63869 9.2437 5.33411 8.86789 5.33411C8.49209 5.33411 8.1875 5.63869 8.1875 6.0145V10.7773C8.1875 11.1531 8.49209 11.4577 8.86789 11.4577H12.4967C12.8725 11.4577 13.1771 11.1531 13.1771 10.7773C13.1771 10.4015 12.8725 10.0969 12.4967 10.0969Z" fill="#88B04B"></path></g><defs><clipPath id="clip0"><rect width="18.6429" height="18.6429" fill="white" transform="translate(0 0.775513)"></rect></clipPath></defs></svg><p class="ml-2 small-text text-gray-3">15 Mins</p>
+                        </div>
+
+                        <div class="r21c-43 disply-flex space-between">
+                        <img src="https://recipefund.com/foodimg.png" width="20" height="20" class="object-cover" alt="Recipe Fund Food Icon">
+                        <p class="ml-2 small-text text-gray-3">3 People
+                        </p>
+                        </div>
+                        </div>
+
+                	</div>
+
+                	<div class="r21c-5 disply-flex"></div>
+
+                	<div class="r21c-6 disply-flex item-end-vertically">
+                		
+                       <div class=" r23c-61 disply-flex space-between ">
+                         <img src="https://firebasestorage.googleapis.com/v0/b/recipe-fund.appspot.com/o/profile%2FK6mVtNr0GAZnz9oUPnSL0QMOH722?alt=media&token=0b7e2f92-c57b-4f75-95a0-57af6b26e1d4" width="29" height="29" alt="Ernest Turkson" class="rounded-full object-cover w-8 h-8">
+
+                         <p class="">By&nbsp;&nbsp;<b>Alexis Vill</b>
+                         </p>
+
+                       </div>
+
+                	</div>
+                  </div> 
+                 </div>
+    		   </div>
+    	    </div>
+        </div>
+
+   </div>
+   <div class="var disply-flex content-center item-center-vertically">
+	<div class=" var1 disply-flex content-center item-center-vertically">
+	   <button>Load More</button>
+	</div>
+</div>
+
+
+
+
+  <div class="footer disply-flex content-center item-center-vertically">
+	<div class="f0 disply-flex content-left ">
+		<div class="f1 disply-flex space-between">
+			<div class="f2 disply-flex flex-column">
+				<div class="f2-img disply-flex content-center item-end-vertically">
+					<img src="https://recipefund.com/footerlogoimg.png" class=" object-cover" width="121.5" height="64" alt="Recipe Fund Logo">
+				</div>
+				<div class="f2-copy disply-flex flex-column item-start-vertically content-center">
+					<p class="copy1 ">Copyright &copy; 2020 Recipe Fund.</p>
+					<p class="copy2">All rights reserved</p>
+				</div>
+				<div class="f2-link disply-flex item-end-vertically space-between">
+					  <div class="f2-link1 disply-flex content-center item-center-vertically " ">
+					   <a href="https://www.facebook.com/RecipeFund-2143234215969461" target="_blank" rel="norelopener" class=" w-8 h-8 hover:bg-green cursor-pointer bg-footer-color rounded-full flex justify-center items-center">
+					   <svg style="margin-right: 2px;width: 13px;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" color="white" >
+					    <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+					    	
+					     </path>
+					    </svg>
+					    </a>
+
+					    </div>
+					    <div class="f2-link1 disply-flex content-center item-center-vertically ">
+					     <a href="https://twitter.com/recipefundc" target="_blank" rel="norelopener" class=" w-8 h-8 hover:bg-green cursor-pointer bg-footer-color rounded-full flex justify-center items-center"><svg
+					      aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" color="white"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a>
+
+					    </div>
+
+                        
+					    <div class="f2-link1 disply-flex content-center item-center-vertically ">
+					     <a href="https://www.instagram.com/recipefund/" target="_blank" rel="norelopener" class="w-8 h-8 hover:bg-green cursor-pointer bg-footer-color rounded-full flex justify-center items-center"><svg style="width: 12px;height: 20px;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" color="white"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a>
+
+					    </div>
+
+                        <div class="f2-link1 disply-flex content-center item-center-vertically ">
+					     <a href="https://www.pinterest.com/RecipeFund" target="_blank" rel="norelopener" class="w-8 h-8 hover:bg-green cursor-pointer bg-footer-color rounded-full flex justify-center items-center"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="pinterest" class="svg-inline--fa fa-pinterest fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" color="white"><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"></path></svg></a>
+
+					    </div>
+
+					     <div class="f2-link1 disply-flex content-center item-center-vertically " >
+					    <a href="https://www.youtube.com/channel/UCLfa57xbZkmPuEzxp9DlXEQ" target="_blank" rel="norelopener" class="w-8 h-8 hover:bg-green cursor-pointer bg-footer-color rounded-full flex justify-center items-center"><svg style="width: 16px;height: 17px; margin-right: 1px;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" color="white"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></a>
+
+					    </div>
+
+
+
+                 </div>
+
+
+				</div>
+			
+			<div class="f3 disply-flex flex-column ">
+				<div class="f3-1 disply-flex item-end-vertically"><h1>Useful links</h1></div><br>
+				<div class="f3-2 disply-flex flex-column space-between">
+					<p>Home</p>
+					<a href="about-us.html" style="text-decoration: none;">About Us</a>
+					<p>Blog</p>
+					<p>Advertising</p>
+					<p>Terms & Conditions</p>
+					<p>Privacy Policy</p>
+					<p>Support</p>
+					<p>Contact Us</p>
+				</div>
+			</div>
+			<div class="f4">
+				<div class="f4-1 disply-flex item-end-vertically content-center">
+					<h1 class="heading-66 font-bold">Recipes</h1>
+				</div>
+
+				<div class="f4-2 disply-flex space-between item-end-vertically">
+					<div class="f4-21 disply-flex flex-column space-between">
+						<p>Pakistani Cuisine</p>
+						<p>French Cuisine</p>
+						<p>Dessert</p>
+						<p>American Cuisine</p>
+						<p>Slow Cooker</p>
+						<p>Vegetarian</p>
+					</div>
+
+					<div class="f4-22 disply-flex flex-column space-between">
+						 <p>Salmon</p>
+						<p>Mexican cuisine</p>
+						<p>Thai cuisine</p>
+						<p>Turkey</p>
+						<p>Middle Eastern Cuisine</p>
+						<p>Pasta</p>
+					</div>
+
+					<div class="f4-23 disply-flex flex-column space-between">
+						  <p>Mexican cuisine</p>
+						<p>Cookies</p>
+						<p>Smoothies</p>
+						<p>African Cuisine</p>
+						<p>BBQ</p>
+						<p>Sauces & Condiments</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
